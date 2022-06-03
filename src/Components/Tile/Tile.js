@@ -34,6 +34,9 @@ export class Tile extends React.Component{
                     if(this.props.i === piece.props.i && this.props.j === piece.props.j){
                         return piece
                     }
+                    else{
+                        return ''
+                    }
                 })}
             </div>
             )

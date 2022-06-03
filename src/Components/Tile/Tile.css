@@ -1,0 +1,14 @@
+.tile{
+    width: 81.25px;
+    height: 81.25px;
+    display: grid;
+    place-content: center;
+}
+
+ .white_tile{
+    background-color: beige;
+}
+
+ .black_tile{
+    background-color: #779556;
+}
